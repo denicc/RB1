@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="PropertiyFiles"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/EnitityExtractionProject/stanfordlibs/stanford-ner-3.6.0.jar"/>
+	<classpathentry kind="lib" path="stanford-corenlp-3.6.0.jar"/>
+	<classpathentry kind="lib" path="/EnitityExtractionProject/stanfordlibs/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="/EnitityExtractionProject/stanfordlibs/slf4j-simple.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,11 @@
+orig = { type: "CLASS", value: "edu.stanford.nlp.ling.CoreAnnotations$OriginalTextAnnotation" }
+numtokens = { type: "CLASS", value: "edu.stanford.nlp.ling.CoreAnnotations$NumerizedTokensAnnotation" }
+numcomptype = { type: "CLASS", value: "edu.stanford.nlp.ling.CoreAnnotations$NumericCompositeTypeAnnotation" }
+numcompvalue = { type: "CLASS", value: "edu.stanford.nlp.ling.CoreAnnotations$NumericCompositeValueAnnotation" }
+
+// Numbers
+{ ruleType: "tokens",
+  pattern: ( [ numcomptype:"NUMBER" ] ),
+  result: ( "EXPR", $0[0].numcompvalue )
+}
+  
